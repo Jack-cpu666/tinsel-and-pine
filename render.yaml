@@ -20,6 +20,10 @@ services:
         generateValue: true
       - key: DB_SCHEMA
         value: tinselpine
+      - key: BASE_URL
+        value: https://tinselandpine.us
+      - key: CANONICAL_HOST
+        value: tinselandpine.us
       - key: DATABASE_URL
         fromDatabase:
           name: eidren-db
