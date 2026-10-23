@@ -234,7 +234,7 @@ const productSchema = z.object({
   sort_order: z.coerce.number().int().min(-1000).max(100000).optional().default(0),
   option_name: z.string().trim().max(40).optional().default(''),
   option2_name: z.string().trim().max(40).optional().default(''),
-  ship_estimate: z.string().trim().max(60).optional().default('7-14 business days'),
+  ship_estimate: z.string().trim().max(60).optional().default('3-5 business days'),
   supplier_url: z.union([z.literal(''), z.string().trim().url().max(500)]).optional().default(''),
   featured: z.string().optional(),
 });
@@ -243,7 +243,7 @@ function productValues(d) {
   return [d.name, slugify(d.slug || d.name), d.tagline, d.description,
     JSON.stringify(d.bullets.split('\n').map((s) => s.trim()).filter(Boolean).slice(0, 12)),
     d.category_id ? Number(d.category_id) || null : null, d.status, d.sort_order, d.option_name || null, d.option2_name || null,
-    d.ship_estimate || '7-14 business days', d.supplier_url || null, d.featured === '1'];
+    d.ship_estimate || '3-5 business days', d.supplier_url || null, d.featured === '1'];
 }
 
 router.post('/products/new', async (req, res) => {

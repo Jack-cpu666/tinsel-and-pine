@@ -170,7 +170,7 @@ function productEdit({ p, variants, images, categories, csrf, queue }) {
     <div class="grid3">
       <label>Option 1 name<input name="option_name" maxlength="40" value="${p.option_name || ''}" placeholder="e.g. Color"></label>
       <label>Option 2 name<input name="option2_name" maxlength="40" value="${p.option2_name || ''}" placeholder="e.g. Size"></label>
-      <label>Delivery estimate<input name="ship_estimate" maxlength="60" value="${p.ship_estimate || '7-14 business days'}"></label>
+      <label>Delivery estimate<input name="ship_estimate" maxlength="60" value="${p.ship_estimate || '3-5 business days'}"></label>
     </div>
     <label>Supplier URL (private)<input name="supplier_url" type="url" maxlength="500" value="${p.supplier_url || ''}"></label>
     <label class="check"><input type="checkbox" name="featured" value="1" ${p.featured ? raw('checked') : ''}> Featured / bestseller</label>

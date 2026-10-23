@@ -105,9 +105,9 @@ async function createCheckout(rawLines, { ip, email } = {}) {
     shipping_options: [{
       shipping_rate_data: {
         type: 'fixed_amount',
-        display_name: 'Free shipping',
+        display_name: 'Free 5-day shipping',
         fixed_amount: { amount: 0, currency: config.currency },
-        delivery_estimate: { minimum: { unit: 'business_day', value: 7 }, maximum: { unit: 'business_day', value: 14 } },
+        delivery_estimate: { minimum: { unit: 'business_day', value: 3 }, maximum: { unit: 'business_day', value: 5 } },
       },
     }],
     phone_number_collection: { enabled: true },

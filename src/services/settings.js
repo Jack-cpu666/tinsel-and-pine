@@ -27,11 +27,11 @@ function decrypt(blob) {
 // Public (non-secret) settings with defaults. Cached briefly.
 const DEFAULTS = {
   store_name: config.storeName,
-  announcement: 'FREE shipping on every order · Order by Dec 5 for the best chance of Christmas delivery',
+  announcement: 'FREE 5-day shipping on every order · Order by Dec 18 for Christmas delivery',
   support_email: '',
   hero_title: 'Make this Christmas glow',
   hero_subtitle: 'Hand-picked lights, cozy decor and stocking-stuffers — free US shipping on everything.',
-  christmas_cutoff: 'December 5',
+  christmas_cutoff: 'December 18',
   meta_pixel_id: '',
   checkout_enabled: 'true',
 };

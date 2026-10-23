@@ -214,8 +214,8 @@ ${glow ? html`<section class="wrap section">
 </section>` : ''}
 <section class="band">
   <div class="wrap band-grid">
-    <div><p class="kicker">Simple &amp; free</p><h2>How it works</h2><p>Every item ships free, straight to your door. You'll get an order confirmation right away and tracking as soon as your package is on its way.</p></div>
-    <ol class="steps"><li><strong>Pick your favourites</strong><span>Mix and match anything in the shop.</span></li><li><strong>Check out securely</strong><span>Card, Apple Pay and Google Pay via Stripe.</span></li><li><strong>Track your parcel</strong><span>Delivery usually takes 7–14 business days.</span></li></ol>
+    <div><p class="kicker">Simple &amp; free</p><h2>How it works</h2><p>Every item is in stock and ships free from our US warehouse, straight to your door. You'll get an order confirmation right away and tracking as soon as your package is on its way.</p></div>
+    <ol class="steps"><li><strong>Pick your favourites</strong><span>Mix and match anything in the shop.</span></li><li><strong>Check out securely</strong><span>Card, Apple Pay and Google Pay via Stripe.</span></li><li><strong>Track your parcel</strong><span>Delivered in 3–5 business days.</span></li></ol>
   </div>
 </section>`;
 }
@@ -277,7 +277,7 @@ function product({ p, related, s }) {
         <p>${p.description}</p>
         ${p.bullets && p.bullets.length ? html`<ul>${p.bullets.map((b) => html`<li>${b}</li>`)}</ul>` : ''}
       </div>
-      <details class="acc"><summary>Shipping &amp; delivery</summary><p>Free shipping on every order. Orders are processed within 1–3 business days and usually arrive in ${p.ship_estimate}. You'll receive tracking as soon as your parcel ships. Order by ${s.christmas_cutoff} for the best chance of Christmas delivery.</p></details>
+      <details class="acc"><summary>Shipping &amp; delivery</summary><p>Free shipping on every order. Every item is in stock in the US — orders ship within 1 business day and arrive in ${p.ship_estimate}. You'll receive tracking as soon as your parcel ships. Order by ${s.christmas_cutoff} for Christmas delivery.</p></details>
       <details class="acc"><summary>Returns</summary><p>Changed your mind? Return unused items within 30 days of delivery. Arrived damaged or not as described? Contact us with a photo and we'll replace or refund it. <a href="/returns">Full returns policy</a>.</p></details>
     </div>
   </div>
@@ -322,7 +322,7 @@ function orderPage({ order, items, justPaid }) {
     <div class="order-box"><h2>What happens next</h2>
       <ol class="timeline">
         <li class="${['paid', 'processing', 'shipped', 'delivered'].includes(order.status) ? 'done' : ''}">Order confirmed</li>
-        <li class="${['processing', 'shipped', 'delivered'].includes(order.status) ? 'done' : ''}">Preparing your order (1–3 business days)</li>
+        <li class="${['processing', 'shipped', 'delivered'].includes(order.status) ? 'done' : ''}">Preparing your order (ships within 1 business day)</li>
         <li class="${['shipped', 'delivered'].includes(order.status) ? 'done' : ''}">Shipped${order.tracking_number ? html` — tracking <strong>${order.tracking_number}</strong>${order.tracking_url ? html` · <a href="${order.tracking_url}" rel="noopener noreferrer" target="_blank">Track parcel</a>` : ''}` : ''}</li>
         <li class="${order.status === 'delivered' ? 'done' : ''}">Delivered</li>
       </ol>
