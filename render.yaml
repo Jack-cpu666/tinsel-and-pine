@@ -1,0 +1,29 @@
+# Render Blueprint: web service + Postgres database.
+services:
+  - type: web
+    name: tinsel-and-pine
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm ci --omit=dev
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: 22.22.0
+      - key: APP_SECRET
+        generateValue: true
+      - key: DATABASE_URL
+        fromDatabase:
+          name: tinsel-and-pine-db
+          property: connectionString
+
+databases:
+  - name: tinsel-and-pine-db
+    plan: free
+    region: oregon
+    databaseName: tinselpine
+    user: tinselpine

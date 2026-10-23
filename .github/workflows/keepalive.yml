@@ -1,0 +1,14 @@
+# Pings the store every 10 minutes so the free Render instance doesn't sleep
+# (first visitors from ads would otherwise wait ~50s for a cold start).
+name: keepalive
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+permissions: {}
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - run: curl -fsS --max-time 60 https://tinsel-and-pine.onrender.com/api/health || true

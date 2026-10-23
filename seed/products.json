@@ -1,0 +1,1227 @@
+{
+ "categories": [
+  {
+   "slug": "lights",
+   "name": "Lights",
+   "sort_order": 1
+  },
+  {
+   "slug": "decor",
+   "name": "Decor",
+   "sort_order": 2
+  },
+  {
+   "slug": "gifts",
+   "name": "Gifts",
+   "sort_order": 3
+  },
+  {
+   "slug": "apparel",
+   "name": "Apparel",
+   "sort_order": 4
+  },
+  {
+   "slug": "pets",
+   "name": "Pets",
+   "sort_order": 5
+  },
+  {
+   "slug": "kitchen",
+   "name": "Kitchen",
+   "sort_order": 6
+  }
+ ],
+ "products": [
+  {
+   "slug": "snow-globe-lantern-music-box",
+   "name": "Snow Globe Lantern Music Box",
+   "category": "Decor",
+   "tagline": "A glowing snow-globe lantern that plays a Christmas melody.",
+   "description": "A little piece of Christmas magic for a mantel, shelf or bedside table. Each lantern holds a festive scene inside a clear globe with drifting glitter snow, lit by a warm LED glow and paired with a built-in music box. It makes a heart-warming gift for kids, grandparents and anyone who collects holiday keepsakes.",
+   "bullets": [
+    "Warm LED glow with swirling glitter snow",
+    "Built-in music box plays a holiday tune",
+    "Antique-bronze lantern finish with carry handle",
+    "Choose from four festive scenes",
+    "Great keepsake gift for all ages"
+   ],
+   "featured": true,
+   "option_name": "Style",
+   "option2_name": null,
+   "supplier_url": "https://www.aliexpress.us/item/3256809569407395.html",
+   "ship_estimate": "7-14 business days",
+   "sort_order": 0,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/Scec4cc06532140e68b9d84c3fc4d7433d.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sce4f34e54d7f4bef93377f86d42d6fbeE.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S439be47173db4b6abf0fe7604a0e5ce91.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S3bfd479b151b4bcf976adc917397108fn.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sbcfd78a5019e46b5a0d1bdd0083769b54.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sfc359e90b2e04b57875e0c6128fcd04a8.jpg"
+   ],
+   "variants": [
+    {
+     "option1": "Style A",
+     "option2": null,
+     "cost": 19.19,
+     "price_cents": 3899,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9dceb40efb5b4f2d81781789036378ces.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style B",
+     "option2": null,
+     "cost": 22.85,
+     "price_cents": 4599,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Saabb3ff2c2d14c02906f1a93aea494e8v.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style C",
+     "option2": null,
+     "cost": 23.29,
+     "price_cents": 4699,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S18fc4052c0e744ffbdcd92526b42a16dT.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style D",
+     "option2": null,
+     "cost": 23.29,
+     "price_cents": 4699,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S350510bec9184a53b9a505cfd18243166.jpg",
+     "compare_at_cents": null
+    }
+   ],
+   "supplier_note": null
+  },
+  {
+   "slug": "christmas-projector-16-patterns",
+   "name": "Christmas Magic Projector (16 Patterns)",
+   "category": "Lights",
+   "tagline": "Fill any room with Santa, snowflakes and Christmas trees.",
+   "description": "Plug it into any USB port and turn your walls and ceiling into a Christmas scene. Sixteen swappable holiday patterns \u2014 Santa, snowflakes, trees, reindeer and more \u2014 rotate slowly to create a cozy, moving light show. Perfect for kids' bedrooms, parties and holiday movie nights.",
+   "bullets": [
+    "16 interchangeable Christmas patterns",
+    "Slow rotating projection for a moving effect",
+    "USB powered \u2014 works with any phone charger or power bank",
+    "Compact and easy to move room to room",
+    "Indoor use"
+   ],
+   "featured": true,
+   "option_name": null,
+   "option2_name": null,
+   "supplier_url": "https://www.aliexpress.us/item/3256810253061716.html",
+   "ship_estimate": "7-14 business days",
+   "sort_order": 1,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sfe54294d37014ee3a5864fb451290a12Q.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S468d1a4367f7447683c40a906553f9d4N.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S88e20628ec0a495fac1b5e2309ee0e859.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S7869177e4ada421594bdd4adb9155844U.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S976a5f66437840f0b93dcfd84e9552edU.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sbe1c4d1f74754889839543314778e39eU.jpg"
+   ],
+   "variants": [
+    {
+     "option1": "Default",
+     "option2": null,
+     "cost": 8.49,
+     "price_cents": 1699,
+     "image": null,
+     "compare_at_cents": null
+    }
+   ],
+   "supplier_note": null
+  },
+  {
+   "slug": "star-curtain-fairy-lights",
+   "name": "Star Curtain Fairy Lights (138 LED, 11.5 ft)",
+   "category": "Lights",
+   "tagline": "11.5 ft of twinkling stars for windows, walls and mantels.",
+   "description": "Hang a curtain of glowing stars in a window or behind the tree and your home instantly feels like Christmas. This 3.5 m (11.5 ft) curtain has 138 LEDs across hanging star strands with multiple lighting modes. Plugs into a standard US outlet.",
+   "bullets": [
+    "138 LEDs across 3.5 m (11.5 ft) of star strands",
+    "8 lighting modes including twinkle and fade",
+    "US plug (110V)",
+    "Warm white or multicolor",
+    "Great for windows, bedrooms and party backdrops"
+   ],
+   "featured": true,
+   "option_name": "Color",
+   "option2_name": null,
+   "supplier_url": "https://www.aliexpress.us/item/3256807522280691.html",
+   "ship_estimate": "7-14 business days",
+   "sort_order": 2,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S0c3eec785f5d4140a431134910dc2f05z.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S2535893561e242fe8d61aaca4c2ae61ah.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sfdea69a9b05c466a9bd506c76bb80138i.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S80e93e9ef6714891a710bbc6ec64884c2.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S1bb2894bff534424b29eb4f9b4dd2202H.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S4594b98ca8d74b5eaee970332d5825d9Q.jpg"
+   ],
+   "variants": [
+    {
+     "option1": "Warm White",
+     "option2": null,
+     "cost": 6.1,
+     "price_cents": 1299,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S44fad1c6da824eee8ae1c6e2d8d6dc05i.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Multicolor",
+     "option2": null,
+     "cost": 6.1,
+     "price_cents": 1299,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2b53ec6c7870433fab67c5b0d32e33a8k.jpg",
+     "compare_at_cents": null
+    }
+   ],
+   "supplier_note": "US plug 110V"
+  },
+  {
+   "slug": "glowing-christmas-gnome",
+   "name": "Glowing Christmas Gnome (12 in)",
+   "category": "Decor",
+   "tagline": "The cozy, light-up gnome everyone is putting on their shelves.",
+   "description": "These soft knitted gnomes with long beards and pointy hats have become a holiday favourite \u2014 and this one lights up. About 30 cm (12 in) tall with a built-in LED glow, they look great on a mantel, entry table or tucked into the tree. Choose your favourite style.",
+   "bullets": [
+    "About 30 cm / 12 in tall",
+    "Built-in LED light (battery operated)",
+    "Soft plush and knitted fabric",
+    "Several styles to collect",
+    "A sweet gift for grandparents and teachers"
+   ],
+   "featured": true,
+   "option_name": "Style",
+   "option2_name": null,
+   "supplier_url": "https://www.aliexpress.us/item/3256805746392239.html",
+   "ship_estimate": "7-14 business days",
+   "sort_order": 3,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S715fcf19186742878099888fd6f17fe53.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S9395a024607c444a9f368a9267acf579p.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S26abceb9b5214e84a979ecfb924e5deap.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S4c9b8a117f274ade9d4dc4721e550bb35.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sf0b313611b23483eac2d27a488ce40e0j.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S6adcfd6cb6944f6981e3cb207000511bh.jpg"
+   ],
+   "variants": [
+    {
+     "option1": "Style A",
+     "option2": null,
+     "cost": 7.02,
+     "price_cents": 1499,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S36a96a660bf3467d8b47604ac90678b8J.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style B",
+     "option2": null,
+     "cost": 6.25,
+     "price_cents": 1299,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6c7431b1177649f382670a716393c2a8Y.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style C",
+     "option2": null,
+     "cost": 5.95,
+     "price_cents": 1199,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5895b69da1b346ada862b6546822c1a9O.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style D",
+     "option2": null,
+     "cost": 6.25,
+     "price_cents": 1299,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Seaefd930ed264b2098ada440f7785e17j.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style E",
+     "option2": null,
+     "cost": 6.95,
+     "price_cents": 1399,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S441977262cd94b488e946b97589b0f905.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style F",
+     "option2": null,
+     "cost": 6.75,
+     "price_cents": 1399,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8e4bf0d7eb7448a5beee425f253382a4i.jpg",
+     "compare_at_cents": null
+    }
+   ],
+   "supplier_note": null
+  },
+  {
+   "slug": "snow-flocked-tabletop-tree",
+   "name": "Snow-Flocked Tabletop Christmas Tree (18 in)",
+   "category": "Decor",
+   "tagline": "A snowy mini tree for desks, entryways and small spaces.",
+   "description": "All the charm of a full-size tree in a space-saving size. This 45 cm (about 18 in) tabletop tree has snow-flocked branches and is available with built-in LED lights for an instant cozy glow \u2014 perfect for apartments, offices and kids' rooms.",
+   "bullets": [
+    "About 45 cm / 18 in tall",
+    "Snow-flocked branches",
+    "Optional built-in warm LED lights",
+    "Ready to display \u2014 no assembly",
+    "Lovely gift for neighbours and coworkers"
+   ],
+   "featured": false,
+   "option_name": "Option",
+   "option2_name": null,
+   "supplier_url": "https://www.aliexpress.us/item/3256810252989903.html",
+   "ship_estimate": "7-14 business days",
+   "sort_order": 4,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S4a1e698650e54245b4e988e55fe8b902u.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sad70b349de5d4602a33868841849b0abN.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sb60dddf6518345e89df44da9340379435.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Seb921cb54fcf4ddcaff970654be9a34aI.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S2be3ed13c97c408b908691b77764faa86.jpg"
+   ],
+   "variants": [
+    {
+     "option1": "With LED lights",
+     "option2": null,
+     "cost": 14.36,
+     "price_cents": 2899,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S974eec6fd580413aaccc840bfa566765H.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Without lights",
+     "option2": null,
+     "cost": 11.09,
+     "price_cents": 2299,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S700fec4fae6c4b0dba2e0ad57cec0a6ea.jpg",
+     "compare_at_cents": null
+    }
+   ],
+   "supplier_note": null
+  },
+  {
+   "slug": "velvet-ornament-ball-set",
+   "name": "Velvet Flocked Ornament Balls (Shatterproof)",
+   "category": "Decor",
+   "tagline": "Soft velvet ornaments that won't shatter.",
+   "description": "Give your tree a rich, designer look with these velvet-flocked ornament balls. Each 6 cm ball is made from shatterproof plastic with a soft velvet finish \u2014 safe around kids and pets. Choose classic red, evergreen green or snowy white in 6 or 12 piece sets.",
+   "bullets": [
+    "6 cm (2.4 in) velvet-flocked balls",
+    "Shatterproof \u2014 safe for kids and pets",
+    "Red, green or white",
+    "6 or 12 piece sets",
+    "Hanging loops included"
+   ],
+   "featured": false,
+   "option_name": "Set",
+   "option2_name": null,
+   "supplier_url": "https://www.aliexpress.us/item/3256807971179402.html",
+   "ship_estimate": "7-14 business days",
+   "sort_order": 5,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S4e5625ac51604791b4f9b615937bb499z.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S8e4b121d4ab044a284bfeccbc97fb65ec.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sb8a35b2ad5a346fe9f8edc6658854d1de.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S0f879c901a5f4f909aa2bb7c83d39a80y.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S963d26989cd644eb8c774d3fafa01f04q.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Se477635b0693453f804f140229acbe37b.jpg"
+   ],
+   "variants": [
+    {
+     "option1": "Red - 6 pcs",
+     "option2": null,
+     "cost": 4.99,
+     "price_cents": 999,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S386a7a02102741a784a9ad2b50ffee2ff.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Red - 12 pcs",
+     "option2": null,
+     "cost": 7.15,
+     "price_cents": 1499,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdfc5ebee8f4243849593ac044cff9c9e5.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Green - 6 pcs",
+     "option2": null,
+     "cost": 5.19,
+     "price_cents": 1099,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8934b4fd03ab442b9abbc2e95d4793a8g.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Green - 12 pcs",
+     "option2": null,
+     "cost": 7.05,
+     "price_cents": 1499,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf72a69d0071f4c64bbe791129d7c4824O.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "White - 6 pcs",
+     "option2": null,
+     "cost": 5.25,
+     "price_cents": 1099,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2873eddc94484fac8952997700d56d50w.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "White - 12 pcs",
+     "option2": null,
+     "cost": 7.05,
+     "price_cents": 1499,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se6a74fd47fa04a219b19c7e0f807144f9.jpg",
+     "compare_at_cents": null
+    }
+   ],
+   "supplier_note": null
+  },
+  {
+   "slug": "family-christmas-pajamas",
+   "name": "Matching Family Christmas Pajamas",
+   "category": "Apparel",
+   "tagline": "Matching holiday PJs for the Christmas-morning photo.",
+   "description": "The easiest way to get the whole family into the Christmas card photo. This soft two-piece set has an all-over festive print with a pullover top and comfy pants. Adult sizes for women and men \u2014 order a set for everyone.",
+   "bullets": [
+    "2-piece set: pullover top + pants",
+    "Soft, relaxed fit for lounging",
+    "Women's and men's sizes S\u20133XL",
+    "Festive all-over Christmas print",
+    "Check the size guide photo before ordering"
+   ],
+   "featured": true,
+   "option_name": "Size",
+   "option2_name": null,
+   "supplier_url": "https://www.aliexpress.us/item/3256807384589199.html",
+   "ship_estimate": "7-14 business days",
+   "sort_order": 6,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sad43114dc2fb40cbb9661a6d88a3a884S.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S90b9f225edcf4c5984ddd11ff05c0a0an.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S87c84b67b9064baf8b0d99a3d842a07dm.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S2dd9c5b5a22a4a00b483af8c34fd634dB.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S6df698df66ca41f5aae5f3621bcd2adfJ.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sa0bbecf7736f4325b2588b849ab199c4A.jpg"
+   ],
+   "variants": [
+    {
+     "option1": "Women S",
+     "option2": null,
+     "cost": 16.62,
+     "price_cents": 3399,
+     "image": null,
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Women M",
+     "option2": null,
+     "cost": 17.15,
+     "price_cents": 3499,
+     "image": null,
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Women L",
+     "option2": null,
+     "cost": 17.55,
+     "price_cents": 3599,
+     "image": null,
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Women XL",
+     "option2": null,
+     "cost": 17.95,
+     "price_cents": 3599,
+     "image": null,
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Women XXL",
+     "option2": null,
+     "cost": 18.49,
+     "price_cents": 3699,
+     "image": null,
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Women 3XL",
+     "option2": null,
+     "cost": 18.89,
+     "price_cents": 3799,
+     "image": null,
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Men S",
+     "option2": null,
+     "cost": 17.36,
+     "price_cents": 3499,
+     "image": null,
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Men M",
+     "option2": null,
+     "cost": 17.75,
+     "price_cents": 3599,
+     "image": null,
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Men L",
+     "option2": null,
+     "cost": 18.29,
+     "price_cents": 3699,
+     "image": null,
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Men XL",
+     "option2": null,
+     "cost": 18.69,
+     "price_cents": 3799,
+     "image": null,
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Men XXL",
+     "option2": null,
+     "cost": 19.09,
+     "price_cents": 3899,
+     "image": null,
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Men 3XL",
+     "option2": null,
+     "cost": 19.62,
+     "price_cents": 3999,
+     "image": null,
+     "compare_at_cents": null
+    }
+   ],
+   "supplier_note": null
+  },
+  {
+   "slug": "dog-christmas-sweater",
+   "name": "Knitted Christmas Dog Sweater",
+   "category": "Pets",
+   "tagline": "Because the dog needs to be in the photo too.",
+   "description": "A warm knitted Christmas sweater for dogs of all sizes, from tiny pups to big breeds. Pick from several festive designs. Easy pullover design with leg openings. Measure your dog's chest and back length and check the size chart photo before ordering.",
+   "bullets": [
+    "Warm knitted fabric",
+    "Sizes XXS to XXL (small to large dogs)",
+    "Several festive designs",
+    "Easy pullover style",
+    "Check the size chart for the best fit"
+   ],
+   "featured": false,
+   "option_name": "Style",
+   "option2_name": "Size",
+   "supplier_url": "https://www.aliexpress.us/item/3256805922964487.html",
+   "ship_estimate": "7-14 business days",
+   "sort_order": 7,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S3b0be402889f4e629b3faacb96e9ccdcm.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S038781f7958d49618b6444abddc77d0bF.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sf0aa7e82133d445c884a6ff9e0ff558cl.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S6bb0a6f1ef2b4b1cb4295e4cf3e6b059A.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S380a61ccfe4a4b4185e0da492c09b5ecW.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sb7a9e023d4c54ee789cf4e26c573fd12b.jpg"
+   ],
+   "variants": [
+    {
+     "option1": "Style A",
+     "option2": "XXS",
+     "cost": 16.18,
+     "price_cents": 3299,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4322243a1191410ab3968996fab300c1G.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style A",
+     "option2": "XS",
+     "cost": 16.51,
+     "price_cents": 3399,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4322243a1191410ab3968996fab300c1G.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style A",
+     "option2": "S",
+     "cost": 17.11,
+     "price_cents": 3499,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4322243a1191410ab3968996fab300c1G.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style A",
+     "option2": "M",
+     "cost": 17.91,
+     "price_cents": 3599,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4322243a1191410ab3968996fab300c1G.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style A",
+     "option2": "L",
+     "cost": 19.29,
+     "price_cents": 3899,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4322243a1191410ab3968996fab300c1G.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style A",
+     "option2": "XL",
+     "cost": 20.85,
+     "price_cents": 4199,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4322243a1191410ab3968996fab300c1G.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style A",
+     "option2": "XXL",
+     "cost": 21.85,
+     "price_cents": 4399,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4322243a1191410ab3968996fab300c1G.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style B",
+     "option2": "XXS",
+     "cost": 16.18,
+     "price_cents": 3299,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd7e7ab7d92024d11be094fe57099cabb2.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style B",
+     "option2": "XS",
+     "cost": 16.51,
+     "price_cents": 3399,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd7e7ab7d92024d11be094fe57099cabb2.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style B",
+     "option2": "S",
+     "cost": 17.11,
+     "price_cents": 3499,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd7e7ab7d92024d11be094fe57099cabb2.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style B",
+     "option2": "M",
+     "cost": 17.91,
+     "price_cents": 3599,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd7e7ab7d92024d11be094fe57099cabb2.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style B",
+     "option2": "L",
+     "cost": 19.29,
+     "price_cents": 3899,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd7e7ab7d92024d11be094fe57099cabb2.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style B",
+     "option2": "XL",
+     "cost": 20.85,
+     "price_cents": 4199,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd7e7ab7d92024d11be094fe57099cabb2.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style B",
+     "option2": "XXL",
+     "cost": 21.85,
+     "price_cents": 4399,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd7e7ab7d92024d11be094fe57099cabb2.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style C",
+     "option2": "XXS",
+     "cost": 16.18,
+     "price_cents": 3299,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd13dffa769484f999c913804ad791f73d.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style C",
+     "option2": "XS",
+     "cost": 16.51,
+     "price_cents": 3399,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd13dffa769484f999c913804ad791f73d.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style C",
+     "option2": "S",
+     "cost": 17.11,
+     "price_cents": 3499,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd13dffa769484f999c913804ad791f73d.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style C",
+     "option2": "M",
+     "cost": 17.91,
+     "price_cents": 3599,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd13dffa769484f999c913804ad791f73d.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style C",
+     "option2": "L",
+     "cost": 19.29,
+     "price_cents": 3899,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd13dffa769484f999c913804ad791f73d.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style C",
+     "option2": "XL",
+     "cost": 20.85,
+     "price_cents": 4199,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd13dffa769484f999c913804ad791f73d.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style C",
+     "option2": "XXL",
+     "cost": 21.85,
+     "price_cents": 4399,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd13dffa769484f999c913804ad791f73d.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style D",
+     "option2": "XXS",
+     "cost": 16.18,
+     "price_cents": 3299,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb1ce753074846ecbca72fe4f8295c0cT.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style D",
+     "option2": "XS",
+     "cost": 16.51,
+     "price_cents": 3399,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb1ce753074846ecbca72fe4f8295c0cT.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style D",
+     "option2": "S",
+     "cost": 17.11,
+     "price_cents": 3499,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb1ce753074846ecbca72fe4f8295c0cT.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style D",
+     "option2": "M",
+     "cost": 17.91,
+     "price_cents": 3599,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb1ce753074846ecbca72fe4f8295c0cT.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style D",
+     "option2": "L",
+     "cost": 19.29,
+     "price_cents": 3899,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb1ce753074846ecbca72fe4f8295c0cT.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style D",
+     "option2": "XL",
+     "cost": 20.85,
+     "price_cents": 4199,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb1ce753074846ecbca72fe4f8295c0cT.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style D",
+     "option2": "XXL",
+     "cost": 21.85,
+     "price_cents": 4399,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb1ce753074846ecbca72fe4f8295c0cT.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style F",
+     "option2": "XXS",
+     "cost": 16.18,
+     "price_cents": 3299,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sebff11ae283c48d483f295cabc7c5986G.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style F",
+     "option2": "XS",
+     "cost": 16.51,
+     "price_cents": 3399,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sebff11ae283c48d483f295cabc7c5986G.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style F",
+     "option2": "S",
+     "cost": 17.11,
+     "price_cents": 3499,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sebff11ae283c48d483f295cabc7c5986G.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style F",
+     "option2": "M",
+     "cost": 17.91,
+     "price_cents": 3599,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sebff11ae283c48d483f295cabc7c5986G.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style F",
+     "option2": "L",
+     "cost": 19.29,
+     "price_cents": 3899,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sebff11ae283c48d483f295cabc7c5986G.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style F",
+     "option2": "XL",
+     "cost": 20.85,
+     "price_cents": 4199,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sebff11ae283c48d483f295cabc7c5986G.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style F",
+     "option2": "XXL",
+     "cost": 21.85,
+     "price_cents": 4399,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sebff11ae283c48d483f295cabc7c5986G.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style H",
+     "option2": "XXS",
+     "cost": 16.18,
+     "price_cents": 3299,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S35f54dad19cd4c0781bc1cc28d9ebba3b.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style H",
+     "option2": "XS",
+     "cost": 16.51,
+     "price_cents": 3399,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S35f54dad19cd4c0781bc1cc28d9ebba3b.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style H",
+     "option2": "S",
+     "cost": 17.11,
+     "price_cents": 3499,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S35f54dad19cd4c0781bc1cc28d9ebba3b.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style H",
+     "option2": "M",
+     "cost": 17.91,
+     "price_cents": 3599,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S35f54dad19cd4c0781bc1cc28d9ebba3b.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style H",
+     "option2": "L",
+     "cost": 19.29,
+     "price_cents": 3899,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S35f54dad19cd4c0781bc1cc28d9ebba3b.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style H",
+     "option2": "XL",
+     "cost": 20.85,
+     "price_cents": 4199,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S35f54dad19cd4c0781bc1cc28d9ebba3b.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Style H",
+     "option2": "XXL",
+     "cost": 21.85,
+     "price_cents": 4399,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S35f54dad19cd4c0781bc1cc28d9ebba3b.jpg",
+     "compare_at_cents": null
+    }
+   ],
+   "supplier_note": "supplier ships at $8.73 - included in cost"
+  },
+  {
+   "slug": "usb-plush-hand-warmer",
+   "name": "Rechargeable Plush Hand Warmer",
+   "category": "Gifts",
+   "tagline": "A soft, rechargeable warmer for cold hands and toes.",
+   "description": "A plush, reusable warmer that charges by USB \u2014 slip your hands inside on cold mornings, commutes and outdoor games. A cozy, practical stocking-stuffer and secret-Santa gift. Choose a hand-warmer style or the foot-warmer version.",
+   "bullets": [
+    "Rechargeable via USB",
+    "Soft plush cover",
+    "Reusable \u2014 no disposable packs",
+    "Hand-warmer and foot-warmer styles",
+    "CE / FCC / RoHS certified (supplier listing)"
+   ],
+   "featured": false,
+   "option_name": "Style",
+   "option2_name": null,
+   "supplier_url": "https://www.aliexpress.us/item/3256810253033723.html",
+   "ship_estimate": "7-14 business days",
+   "sort_order": 8,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S0eca26bfd39b48c18c9238cdcefdc9f9x.png",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S9f19b73e2ac349248a3512ea226b8e07N.png",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S11757370197b43ab8fcd62bf9d4c1ae5l.png",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S633d81cb0bec401995a05ebb35d2ecefx.png",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S4ad83b78237449318cdff1998120ae87d.png",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sb6a6c97007d84dcea17bb781baaffeceR.png"
+   ],
+   "variants": [
+    {
+     "option1": "Hand Warmer A",
+     "option2": null,
+     "cost": 10.59,
+     "price_cents": 2199,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0eca26bfd39b48c18c9238cdcefdc9f9x.png",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Hand Warmer B",
+     "option2": null,
+     "cost": 10.55,
+     "price_cents": 2199,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S103b88bc244d4a76a38b3664cc9c4102q.png",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Hand Warmer C",
+     "option2": null,
+     "cost": 11.85,
+     "price_cents": 2399,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa67933201d8240f99d326d7d67d61adeQ.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Pink",
+     "option2": null,
+     "cost": 9.49,
+     "price_cents": 1899,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S544414d330ae488bb8477f2f7b2c734bZ.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Foot Warmer",
+     "option2": null,
+     "cost": 8.85,
+     "price_cents": 1799,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S26c2108fcee149bc992cab47b8702e2b5.png",
+     "compare_at_cents": null
+    }
+   ],
+   "supplier_note": "CE/FCC/RoHS"
+  },
+  {
+   "slug": "christmas-socks-5-pack",
+   "name": "Cozy Christmas Socks (5 Pairs)",
+   "category": "Apparel",
+   "tagline": "Santa, reindeer, snowmen and candy canes \u2014 5 festive pairs.",
+   "description": "An easy stocking-stuffer win. Five pairs of soft mid-calf Christmas socks with festive designs: Santa, reindeer, snowmen and candy canes. One size fits most adults.",
+   "bullets": [
+    "5 or 10 pairs per pack",
+    "Mid-calf length",
+    "95% polyester, 5% spandex",
+    "One size fits most adults",
+    "Machine washable"
+   ],
+   "featured": false,
+   "option_name": "Pack",
+   "option2_name": null,
+   "supplier_url": "https://www.aliexpress.us/item/3256809887985408.html",
+   "ship_estimate": "7-14 business days",
+   "sort_order": 9,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sa8fcc80483ea4372a1dfe9acf013d2edc.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Se4d5c1bb20884702aac53a7abc9d1940Y.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sfeb1b0058c964106834bec88966483b3i.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S2e1fed20f45a44dbbfa41edecd5a4bdbi.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S10124cd4c0924898b79f5694905ff5adb.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S5197737f864b49288d3477c29951e30bi.jpg"
+   ],
+   "variants": [
+    {
+     "option1": "5 pairs",
+     "option2": null,
+     "cost": 6.29,
+     "price_cents": 1299,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se3b35479408c4c2baaee077c28ca37e6F.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "10 pairs",
+     "option2": null,
+     "cost": 12.58,
+     "price_cents": 2599,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S78cab4ee36e34304b394e4798cd8c424N.jpg",
+     "compare_at_cents": null
+    }
+   ],
+   "supplier_note": "5-pair listed $2.32 promo; cost basis set at half of 10-pack to be safe"
+  },
+  {
+   "slug": "christmas-cookie-cutter-set",
+   "name": "Stainless Christmas Cookie Cutter Set (20 pc)",
+   "category": "Kitchen",
+   "tagline": "20 stainless-steel holiday cutters for cookie-decorating day.",
+   "description": "Twenty mini stainless steel cookie cutters in Christmas shapes \u2014 trees, stars, snowflakes, gingerbread people and more. Great for cookies, fondant, sandwiches and even fruit. A fun baking gift for families.",
+   "bullets": [
+    "20 mini Christmas shapes",
+    "Food-grade stainless steel",
+    "Use for cookies, fondant, fruit and sandwiches",
+    "Dishwasher-friendly, rust-resistant",
+    "Comes in a storage box"
+   ],
+   "featured": false,
+   "option_name": null,
+   "option2_name": null,
+   "supplier_url": "https://www.aliexpress.us/item/3256810301074591.html",
+   "ship_estimate": "7-14 business days",
+   "sort_order": 10,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S6bd8d48af72543d48f6fb24990e64c6aC.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sb45e1c52effb4c44ba9535bf1153a73dK.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S0fc7d5afa9e646a0acb001ba192381fcc.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S19b2a0a66b3f40f7b40caa0327d0b6cb8.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S45d952181c934a92ae202d909a8ff12eY.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S019722a064fe4d09b217bfcfecc8571aU.jpg"
+   ],
+   "variants": [
+    {
+     "option1": "Default",
+     "option2": null,
+     "cost": 5.05,
+     "price_cents": 1099,
+     "image": null,
+     "compare_at_cents": null
+    }
+   ],
+   "supplier_note": null
+  },
+  {
+   "slug": "velvet-santa-gift-sack",
+   "name": "Giant Velvet Santa Sack (20 x 28 in)",
+   "category": "Gifts",
+   "tagline": "A big fluffy Santa sack for Christmas-morning gifts.",
+   "description": "Skip the wrapping paper. This oversized red velvet sack (about 50 x 70 cm / 20 x 28 in) with a white fluffy trim and drawstring holds a whole pile of presents \u2014 and you can reuse it every year.",
+   "bullets": [
+    "About 50 x 70 cm / 20 x 28 in",
+    "Soft red velvet with fluffy white trim",
+    "Drawstring closure",
+    "Reusable every Christmas",
+    "Great for gifts, toys and storage"
+   ],
+   "featured": false,
+   "option_name": null,
+   "option2_name": null,
+   "supplier_url": "https://www.aliexpress.us/item/3256809483156918.html",
+   "ship_estimate": "7-14 business days",
+   "sort_order": 11,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/Se75ac1f4e7bd425e8b39f2baa1c5b080A.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sf9b9f6a574244d65a377aee93209e67bQ.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sb11c9b74206a4e7b8d84228efe077fd1u.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S402aca179bdd4db3bd473a8072880f31G.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S3c168dcad5034b54aa8a5f67797f6c0cg.jpg"
+   ],
+   "variants": [
+    {
+     "option1": "Default",
+     "option2": null,
+     "cost": 2.12,
+     "price_cents": 499,
+     "image": null,
+     "compare_at_cents": null
+    }
+   ],
+   "supplier_note": null
+  },
+  {
+   "slug": "led-birch-tree-light",
+   "name": "Glowing LED Birch Tree Lamp",
+   "category": "Lights",
+   "tagline": "A warm-white glowing tree for a cozy corner.",
+   "description": "A decorative birch-style tree covered in tiny warm-white LEDs. It gives off a soft, candle-like glow that's perfect for a mantel, bedroom or entryway \u2014 and looks great well beyond Christmas. Runs on USB or batteries.",
+   "bullets": [
+    "Tall 144-LED or mini 24-LED version",
+    "Warm white glow",
+    "USB or battery powered",
+    "Bendable branches",
+    "Indoor decor for every season"
+   ],
+   "featured": false,
+   "option_name": "Size",
+   "option2_name": null,
+   "supplier_url": "https://www.aliexpress.us/item/3256806778481172.html",
+   "ship_estimate": "7-14 business days",
+   "sort_order": 12,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S74f0c6089dad40aba5c62c84088c93def.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S99a7ab35f44f49f59194aa083498f66aH.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sa50f3473499944169f8350d7ce3fa9f6x.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S1f1f5839994746b38b0a531d6794f3526.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S77fb63704f6046499592c9422454ad41R.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sdbf31d5c64534f30a17dc81ff3c8691fg.jpg"
+   ],
+   "variants": [
+    {
+     "option1": "144 LED (tall)",
+     "option2": null,
+     "cost": 7.61,
+     "price_cents": 1599,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9379a8f2135c4e0e9c81c9672682c750p.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "24 LED (mini)",
+     "option2": null,
+     "cost": 3.64,
+     "price_cents": 799,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4ee5539472194686bec64e866ab3c55bG.jpg",
+     "compare_at_cents": null
+    }
+   ],
+   "supplier_note": "USB or battery, CE"
+  },
+  {
+   "slug": "felt-advent-calendar",
+   "name": "Felt Santa Advent Calendar",
+   "category": "Decor",
+   "tagline": "Count down to Christmas with 24 fillable pockets.",
+   "description": "A reusable felt advent calendar to hang on a wall or door. Fill the 24 numbered pockets with little treats, notes or toys and make the countdown to Christmas a family tradition you can repeat every year.",
+   "bullets": [
+    "24 numbered pockets to fill",
+    "Soft felt with festive Santa design",
+    "Reusable year after year",
+    "Red, grey, or a 2-pack",
+    "Hanging loop included"
+   ],
+   "featured": false,
+   "option_name": "Option",
+   "option2_name": null,
+   "supplier_url": "https://www.aliexpress.us/item/3256809748572728.html",
+   "ship_estimate": "7-14 business days",
+   "sort_order": 13,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S1ad40a54f4654ba880cec0ff2bcd0688L.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S1de837656e0547abb1519f36fcebbddeK.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Scbe4a9cf985440a8a39c9651a23a05e7u.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Se540c8a200614dd9bccd1624a02917fc4.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S267be1778a7d45a3b8d3cc743bfe48f0I.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S0fce44c556f140a3a33af131a3964d2f4.jpg"
+   ],
+   "variants": [
+    {
+     "option1": "Red",
+     "option2": null,
+     "cost": 4.54,
+     "price_cents": 999,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf9e397f05ab04558aea30586566433f3i.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Grey",
+     "option2": null,
+     "cost": 4.58,
+     "price_cents": 999,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4f0766b2ca994f1e9277aa1c9e7ec29c9.jpg",
+     "compare_at_cents": null
+    },
+    {
+     "option1": "Red + Grey (2 pcs)",
+     "option2": null,
+     "cost": 11.25,
+     "price_cents": 2299,
+     "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc3a9c46b6d3a437faaaa18bda6c05bd6P.jpg",
+     "compare_at_cents": null
+    }
+   ],
+   "supplier_note": null
+  },
+  {
+   "slug": "christmas-flannel-blanket",
+   "name": "Christmas Flannel Throw Blanket",
+   "category": "Gifts",
+   "tagline": "A soft flannel throw with Santa, snowmen and reindeer.",
+   "description": "Movie-night ready. This soft flannel throw blanket features a playful Christmas print with Santa, snowmen and reindeer \u2014 cozy on the couch, in bed or in the car, and a perfect gift for anyone who's always cold.",
+   "bullets": [
+    "Soft, warm flannel",
+    "Festive Christmas print",
+    "Two sizes: 51 x 59 in or 59 x 79 in",
+    "Lightweight and easy to wash",
+    "A cozy gift for all ages"
+   ],
+   "featured": false,
+   "option_name": "Size",
+   "option2_name": null,
+   "supplier_url": "https://www.aliexpress.us/item/3256807218106352.html",
+   "ship_estimate": "7-14 business days",
+   "sort_order": 14,
+   "images": [
+    "https://ae-pic-a1.aliexpress-media.com/kf/S0c216152bc244281b09ac1c746f443307.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S80cb8a73c4db4af784dddcd215b2535do.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Se2ecaf7682df4638b5d1f8f2cbfd0e24n.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S6a361950e83a497490e548cbc64c51f9J.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/Sb989371549d54c23ba9d0aed9f71b55do.jpg",
+    "https://ae-pic-a1.aliexpress-media.com/kf/S1a64a0f36d364fdab050daa8bb5404bbg.jpg"
+   ],
+   "variants": [
+    {
+     "option1": "51 x 59 in",
+     "option2": null,
+     "cost": 10.33,
+     "price_cents": 2099,
+     "image": null,
+     "compare_at_cents": null
+    },
+    {
+     "option1": "59 x 79 in",
+     "option2": null,
+     "cost": 20.95,
+     "price_cents": 4199,
+     "image": null,
+     "compare_at_cents": null
+    }
+   ],
+   "supplier_note": null
+  }
+ ]
+}
