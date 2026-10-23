@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS seed_batches (
+  name TEXT PRIMARY KEY,
+  applied_at TIMESTAMPTZ NOT NULL DEFAULT now()
+);

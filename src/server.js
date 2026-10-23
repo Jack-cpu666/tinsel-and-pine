@@ -9,7 +9,7 @@ const config = require('./config');
 const db = require('./db');
 const security = require('./security');
 const auth = require('./auth');
-const { seedIfEmpty } = require('./seed');
+const { seedIfEmpty, applyBatches } = require('./seed');
 const jobs = require('./services/jobs');
 const storeViews = require('./views/store');
 const adminViews = require('./views/admin');
@@ -86,7 +86,7 @@ function createApp() {
 
 async function start() {
   await db.migrate();
-  if (config.seedOnBoot) await seedIfEmpty();
+  if (config.seedOnBoot) { await seedIfEmpty(); await applyBatches(); }
   await auth.ensureSetupToken();
   const app = createApp();
   const server = app.listen(config.port, () => console.log(`[server] ${config.storeName} listening on :${config.port} (${config.isProd ? 'production' : 'development'})`));
