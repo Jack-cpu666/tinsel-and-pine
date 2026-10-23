@@ -1,4 +1,6 @@
-# Render Blueprint: web service + Postgres database.
+# Render Blueprint: the store's web service.
+# The store shares the existing "eidren-db" Postgres but keeps every table in its
+# own "tinselpine" schema, so it never touches the other app's data.
 services:
   - type: web
     name: tinsel-and-pine
@@ -16,14 +18,9 @@ services:
         value: 22.22.0
       - key: APP_SECRET
         generateValue: true
+      - key: DB_SCHEMA
+        value: tinselpine
       - key: DATABASE_URL
         fromDatabase:
-          name: tinsel-and-pine-db
+          name: eidren-db
           property: connectionString
-
-databases:
-  - name: tinsel-and-pine-db
-    plan: free
-    region: oregon
-    databaseName: tinselpine
-    user: tinselpine

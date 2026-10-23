@@ -23,6 +23,8 @@ module.exports = {
   isProd,
   port: Number(env.PORT || 3000),
   databaseUrl: env.DATABASE_URL || 'postgres://postgres:pw@localhost:5433/shop',
+  // Optional: keep all tables in their own schema (lets the store share a database safely).
+  dbSchema: /^[a-z_][a-z0-9_]{0,40}$/.test(env.DB_SCHEMA || '') ? env.DB_SCHEMA : null,
   databaseSsl: env.DATABASE_SSL === 'true' || (isProd && env.DATABASE_SSL !== 'false' && !/localhost|127\.0\.0\.1|\.internal|dpg-[a-z0-9]+-a(\/|:|$)/.test(env.DATABASE_URL || '')),
   appSecret,
   baseUrl: (env.BASE_URL || env.RENDER_EXTERNAL_URL || `http://localhost:${env.PORT || 3000}`).replace(/\/$/, ''),

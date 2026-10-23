@@ -10,6 +10,7 @@ const pool = new Pool({
   max: 10,
   idleTimeoutMillis: 30_000,
   connectionTimeoutMillis: 10_000,
+  ...(config.dbSchema ? { options: `-c search_path=${config.dbSchema}` } : {}),
 });
 
 pool.on('error', (err) => console.error('[db] idle client error', err.message));
@@ -44,6 +45,7 @@ async function tx(fn) {
 }
 
 async function migrate() {
+  if (config.dbSchema) await pool.query(`CREATE SCHEMA IF NOT EXISTS ${config.dbSchema}`);
   await pool.query(`CREATE TABLE IF NOT EXISTS schema_migrations (name TEXT PRIMARY KEY, applied_at TIMESTAMPTZ NOT NULL DEFAULT now())`);
   const dir = path.join(__dirname, '..', 'migrations');
   const files = fs.readdirSync(dir).filter((f) => f.endsWith('.sql')).sort();
