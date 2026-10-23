@@ -43,11 +43,12 @@ router.get(['/shop', '/shop/:category'], async (req, res) => {
     cat = categories.find((c) => c.slug === req.params.category);
     if (!cat) return send(req, res, { title: 'Not found', body: V.notFound(), noindex: true }, 404);
   }
-  const products = await catalog.listProducts({ category: cat && cat.slug, q: q || null });
+  const max = [1500, 3000, 5000].includes(Number(req.query.max)) ? Number(req.query.max) : null;
+  const products = await catalog.listProducts({ category: cat && cat.slug, q: q || null, maxPrice: max });
   await send(req, res, {
-    title: q ? `Search: ${q}` : cat ? cat.name : 'Shop all',
+    title: q ? `Search: ${q}` : cat ? cat.name : max ? `Gifts under $${max / 100}` : 'Shop all',
     description: cat ? `Shop ${cat.name.toLowerCase()} for Christmas — free US shipping.` : 'Shop every Christmas light, decoration and gift in the store — free US shipping.',
-    body: V.collection({ title: q ? `Results for “${q}”` : cat ? cat.name : 'Shop all', products, categories, active: cat && cat.slug, q }),
+    body: V.collection({ title: q ? `Results for “${q}”` : cat ? cat.name : max ? `Gifts under $${max / 100}` : 'Shop all', products, categories, active: cat && cat.slug, q }),
     canonical: config.baseUrl + (cat ? `/shop/${cat.slug}` : '/shop'),
     noindex: Boolean(q),
   });

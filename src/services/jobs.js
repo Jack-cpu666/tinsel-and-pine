@@ -1,9 +1,29 @@
 'use strict';
+const fs = require('node:fs');
+const path = require('node:path');
 const db = require('../db');
 const images = require('./images');
 const orders = require('./orders');
 
 let running = false;
+
+// Index of photos bundled in seed/images (any sub-folder), keyed by file name.
+let localIndex = null;
+function localImages() {
+  if (localIndex) return localIndex;
+  localIndex = new Map();
+  const walk = (dir) => {
+    let entries = [];
+    try { entries = fs.readdirSync(dir, { withFileTypes: true }); } catch { return; }
+    for (const e of entries) {
+      const full = path.join(dir, e.name);
+      if (e.isDirectory()) walk(full);
+      else if (/\.(jpe?g|png|webp)$/i.test(e.name)) localIndex.set(e.name, full);
+    }
+  };
+  walk(path.join(__dirname, '..', '..', 'seed', 'images'));
+  return localIndex;
+}
 
 // Downloads queued supplier images, re-encodes them and stores them in the DB.
 async function processImageQueue(limit = 6) {
@@ -16,7 +36,11 @@ async function processImageQueue(limit = 6) {
       // A variant image that already exists in the gallery is reused instead of stored twice.
       let imageId = null;
       const existing = await db.one('SELECT id FROM images WHERE product_id = $1 AND source_url = $2', [it.product_id, it.url]);
+      // Photos bundled in the repo (seed/images, filled by DOWNLOAD-IMAGES.bat) are used first;
+      // anything missing is downloaded from the supplier CDN.
+      const local = localImages().get(path.basename(new URL(it.url).pathname));
       if (existing) imageId = existing.id;
+      else if (local) imageId = await images.store({ productId: it.product_id, buf: fs.readFileSync(local), alt: it.product_name, sourceUrl: it.url, sortOrder: it.sort_order });
       else imageId = await images.importFromUrl({ productId: it.product_id, url: it.url, alt: it.product_name, sortOrder: it.sort_order });
       if (it.variant_ids && it.variant_ids.length) {
         await db.query('UPDATE variants SET image_id = $1 WHERE id = ANY($2::int[])', [imageId, it.variant_ids]);

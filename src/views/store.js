@@ -119,59 +119,102 @@ function productCard(p) {
     <div class="card-body">
       <h3>${p.name}</h3>
       <p class="card-tag">${p.tagline}</p>
-      <p class="price">${priceRange(p)} ${sale ? html`<s>${money(p.compare_at)}</s>` : ''}</p>
+      <div class="card-foot"><p class="price">${priceRange(p)} ${sale ? html`<s>${money(p.compare_at)}</s>` : ''}</p><span class="ship-tag">Free shipping</span></div>
     </div>
   </a>
 </article>`;
 }
 
 function trustBar() {
+  const icon = (d) => raw(`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${d}" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>`);
   return html`<section class="trust wrap" aria-label="Why shop with us">
-  <div><strong>Free US shipping</strong><span>On every order, no minimum</span></div>
-  <div><strong>Secure checkout</strong><span>Payments processed by Stripe</span></div>
-  <div><strong>30-day returns</strong><span>Not right? We'll make it right</span></div>
-  <div><strong>Real support</strong><span>Message us any time</span></div>
+  <div>${icon('M3 7h11v9H3zM14 10h4l3 3v3h-7M7 19.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM17.5 19.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z')}<p><strong>Free US shipping</strong><span>On every order, no minimum</span></p></div>
+  <div>${icon('M6 10V8a6 6 0 0 1 12 0v2M5 10h14v10H5zM12 14v2')}<p><strong>Secure checkout</strong><span>Card, Apple Pay &amp; Google Pay</span></p></div>
+  <div>${icon('M4 12a8 8 0 1 0 2.3-5.6M4 4v4h4')}<p><strong>30-day returns</strong><span>Not right? We'll make it right</span></p></div>
+  <div>${icon('M4 6h16v10H8l-4 4zM8 10h8M8 13h5')}<p><strong>Real people</strong><span>Message us any time</span></p></div>
 </section>`;
+}
+
+function daysUntilChristmas() {
+  const now = new Date();
+  let xmas = new Date(Date.UTC(now.getUTCFullYear(), 11, 25));
+  if (now > xmas) xmas = new Date(Date.UTC(now.getUTCFullYear() + 1, 11, 25));
+  return Math.ceil((xmas - now) / 86400000);
 }
 
 function home({ s, products, categories }) {
   const featured = products.filter((p) => p.featured);
-  const hero = featured[0] || products[0];
+  const bySlug = Object.fromEntries(products.map((p) => [p.slug, p]));
+  const heroP = bySlug['snow-globe-lantern-music-box'] || featured[0] || products[0];
+  const pj = bySlug['family-christmas-pajamas'];
+  const glow = bySlug['led-birch-tree-light'] || bySlug['star-curtain-fairy-lights'];
+  const catCover = (c) => (products.find((p) => p.category_slug === c.slug) || {}).image_id;
+  const under = (cents) => products.filter((p) => p.min_price <= cents).length;
+  const days = daysUntilChristmas();
   return html`
 <section class="hero">
-  <div class="wrap hero-grid">
-    <div class="hero-copy">
-      <p class="eyebrow">The Christmas Shop · ${new Date().getFullYear()}</p>
-      <h1>${s.hero_title}</h1>
-      <p class="lede">${s.hero_subtitle}</p>
-      <div class="hero-cta">
-        <a class="btn" href="/shop">Shop the collection</a>
-        <a class="btn btn-ghost" href="#bestsellers">See bestsellers</a>
-      </div>
-      <p class="cutoff">Order by <strong>${s.christmas_cutoff}</strong> for the best chance of delivery before Christmas.</p>
-    </div>
-    <div class="hero-art" aria-hidden="true">
-      ${featured.slice(0, 3).map((p, i) => html`<a class="hero-tile t${i}" href="/products/${p.slug}" tabindex="-1"><img src="${img(p.image_id)}" alt="" width="600" height="600"></a>`)}
-    </div>
-  </div>
+  ${heroP ? html`<img class="hero-bg" src="${img(heroP.image_id)}" alt="" width="1200" height="1200" fetchpriority="high">` : ''}
+  <div class="hero-shade" aria-hidden="true"></div>
   <div class="snow" aria-hidden="true"></div>
+  <div class="wrap hero-inner">
+    <p class="eyebrow"><span class="dot"></span> ${days} days until Christmas</p>
+    <h1>${s.hero_title}</h1>
+    <p class="lede">${s.hero_subtitle}</p>
+    <div class="hero-cta">
+      <a class="btn btn-gold" href="/shop">Shop the collection</a>
+      <a class="btn btn-ghost-light" href="#bestsellers">See bestsellers</a>
+    </div>
+    <p class="cutoff">Order by <strong>${s.christmas_cutoff}</strong> for the best chance of delivery before Christmas.</p>
+  </div>
 </section>
 ${trustBar()}
 <section class="wrap section" id="bestsellers">
-  <div class="section-head"><h2>Bestsellers this season</h2><a href="/shop">View all →</a></div>
+  <div class="section-head"><div><p class="kicker">Most loved</p><h2>Bestsellers this season</h2></div><a class="link-arrow" href="/shop">Shop all →</a></div>
   <div class="grid">${featured.slice(0, 8).map(productCard)}</div>
 </section>
+${pj ? html`<section class="wrap section">
+  <div class="feature">
+    <a class="feature-media" href="/products/${pj.slug}"><img src="${img(pj.image_id)}" alt="${pj.name}" loading="lazy" width="1200" height="1200"></a>
+    <div class="feature-copy">
+      <p class="kicker">The Christmas-morning photo</p>
+      <h2>Matching pajamas for the whole family</h2>
+      <p>Soft, festive and made for the photo you'll keep forever. Women's and men's sizes from S to 3XL — free shipping on every set.</p>
+      <a class="btn" href="/products/${pj.slug}">Shop pajamas · ${priceRange(pj)}</a>
+    </div>
+  </div>
+</section>` : ''}
 <section class="wrap section">
-  <div class="section-head"><h2>Shop by category</h2></div>
-  <div class="cats">${categories.filter((c) => c.n > 0).map((c) => html`<a class="cat" href="/shop/${c.slug}"><span>${c.name}</span><small>${c.n} item${c.n === 1 ? '' : 's'}</small></a>`)}</div>
+  <div class="section-head"><div><p class="kicker">Find it fast</p><h2>Shop by category</h2></div></div>
+  <div class="cats">${categories.filter((c) => c.n > 0).map((c) => html`<a class="cat" href="/shop/${c.slug}">
+    ${catCover(c) ? html`<img src="${img(catCover(c), 'thumb')}" alt="" loading="lazy" width="480" height="480">` : ''}
+    <span class="cat-label"><strong>${c.name}</strong><small>${c.n} item${c.n === 1 ? '' : 's'}</small></span></a>`)}</div>
 </section>
 <section class="wrap section">
-  <div class="section-head"><h2>Everything in the shop</h2></div>
+  <div class="gift-strip">
+    <a href="/shop?max=1500"><strong>Stocking stuffers</strong><span>${under(1500)} gifts under $15</span></a>
+    <a href="/shop?max=3000"><strong>Under $30</strong><span>${under(3000)} easy gifts</span></a>
+    <a href="/shop/lights"><strong>Make it glow</strong><span>Lights &amp; lamps</span></a>
+    <a href="/shop/pets"><strong>For the dog</strong><span>Because they're family</span></a>
+  </div>
+</section>
+<section class="wrap section">
+  <div class="section-head"><div><p class="kicker">The full collection</p><h2>Everything in the shop</h2></div></div>
   <div class="grid">${products.filter((p) => !p.featured).map(productCard)}</div>
 </section>
+${glow ? html`<section class="wrap section">
+  <div class="feature reverse dark">
+    <a class="feature-media" href="/products/${glow.slug}"><img src="${img(glow.image_id)}" alt="${glow.name}" loading="lazy" width="1200" height="1200"></a>
+    <div class="feature-copy">
+      <p class="kicker">Cozy season</p>
+      <h2>A warm glow for every corner</h2>
+      <p>Twinkling stars for the window, a glowing birch tree for the mantel, a Santa projector for the kids' room. Little lights, big Christmas feeling.</p>
+      <a class="btn btn-gold" href="/shop/lights">Shop Christmas lights</a>
+    </div>
+  </div>
+</section>` : ''}
 <section class="band">
   <div class="wrap band-grid">
-    <div><h2>How it works</h2><p>Every item ships free, straight to your door. You'll get an order confirmation right away and tracking as soon as your package is on its way.</p></div>
+    <div><p class="kicker">Simple &amp; free</p><h2>How it works</h2><p>Every item ships free, straight to your door. You'll get an order confirmation right away and tracking as soon as your package is on its way.</p></div>
     <ol class="steps"><li><strong>Pick your favourites</strong><span>Mix and match anything in the shop.</span></li><li><strong>Check out securely</strong><span>Card, Apple Pay and Google Pay via Stripe.</span></li><li><strong>Track your parcel</strong><span>Delivery usually takes 7–14 business days.</span></li></ol>
   </div>
 </section>`;

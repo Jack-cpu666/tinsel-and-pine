@@ -6,9 +6,10 @@ async function categories() {
                     FROM categories c ORDER BY sort_order, name`);
 }
 
-async function listProducts({ category = null, q = null, featured = null, limit = 100 } = {}) {
+async function listProducts({ category = null, q = null, featured = null, maxPrice = null, limit = 100 } = {}) {
   const params = [];
   const where = [`p.status = 'active'`];
+  if (maxPrice) { params.push(maxPrice); where.push(`(SELECT min(price_cents) FROM variants v WHERE v.product_id = p.id AND v.active) <= $${params.length}`); }
   if (category) { params.push(category); where.push(`c.slug = $${params.length}`); }
   if (featured) where.push('p.featured = true');
   if (q) { params.push('%' + q.replace(/[%_\\]/g, (m) => '\\' + m) + '%'); where.push(`(p.name ILIKE $${params.length} OR p.tagline ILIKE $${params.length})`); }

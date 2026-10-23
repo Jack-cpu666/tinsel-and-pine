@@ -2,3 +2,5 @@ node_modules/
 .env
 *.log
 .DS_Store
+seed/download-log.txt
+SAVE-PHOTOS.html
