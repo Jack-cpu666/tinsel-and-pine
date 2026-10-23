@@ -145,13 +145,15 @@
   }
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeCart(); });
 
-  function checkout(btn) {
-    var lines = load();
+  // `only` = checkout just these lines (Buy it now) without touching the saved cart.
+  function checkout(btn, only) {
+    var lines = only || load();
+    if (!only) { try { sessionStorage.removeItem('tp_buy_now'); } catch (e) { /* ignore */ } }
     if (!lines.length) return;
     var err = btn.parentNode.querySelector('[data-checkout-err]');
     btn.disabled = true; var label = btn.textContent; btn.textContent = 'Opening secure checkout…';
     if (err) err.textContent = '';
-    track('begin_checkout', { value: lastPriced ? lastPriced.subtotal / 100 : undefined, items: lines.length });
+    if (!only) track('begin_checkout', { value: lastPriced ? lastPriced.subtotal / 100 : undefined, items: lines.length });
     post('/api/checkout', { lines: lines }).then(function (r) {
       if (r && r.url && /^https:\/\/checkout\.stripe\.com\//.test(r.url)) { window.location.href = r.url; return; }
       throw new Error((r && r.error) || 'Checkout is unavailable right now. Please try again.');
@@ -226,8 +228,11 @@
       if (doAdd()) { toast('Added to your cart'); openCart(); }
     });
     buyNow.addEventListener('click', function () {
-      if (!doAdd()) return;
-      checkout(buyNow);
+      var v = selected(); if (!v || v.stock <= 0) return;
+      var n = Math.min(q(), v.stock);
+      track('begin_checkout', { value: (v.price * n) / 100, items: 1 });
+      try { sessionStorage.setItem('tp_buy_now', '1'); } catch (e) { /* ignore */ }
+      checkout(buyNow, [{ variantId: v.id, qty: n }]);
     });
     if (sticky) {
       var stickyBtn = $('[data-sticky-add]');
@@ -256,7 +261,10 @@
   function initOrder() {
     if ($('[data-order-pending]')) setTimeout(function () { location.reload(); }, 5000);
     if (document.body.classList.contains('order-complete')) {
-      save([]);
+      // A 'Buy it now' order must not wipe the shopper's separate cart.
+      var buyNow = false;
+      try { buyNow = sessionStorage.getItem('tp_buy_now') === '1'; sessionStorage.removeItem('tp_buy_now'); } catch (e) { /* ignore */ }
+      if (!buyNow) save([]);
       var seenKey = 'tp_px_' + location.pathname.slice(-12);
       var seen = false;
       try { seen = localStorage.getItem(seenKey) === '1'; localStorage.setItem(seenKey, '1'); } catch (e) { /* ignore */ }
