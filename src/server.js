@@ -40,6 +40,14 @@ function createApp() {
       return res.redirect(301, 'https://' + req.get('host') + req.originalUrl);
     });
   }
+  // One public address: send onrender.com / www visitors to the custom domain (keeps SEO, cookies and Stripe links consistent).
+  if (config.canonicalHost) {
+    app.use((req, res, next) => {
+      if (req.hostname === config.canonicalHost || req.path === '/api/health' || req.path === '/stripe/webhook') return next();
+      if (req.method !== 'GET' && req.method !== 'HEAD') return next();
+      return res.redirect(301, `https://${config.canonicalHost}${req.originalUrl}`);
+    });
+  }
 
   app.use('/static', express.static(staticDir, { maxAge: config.isProd ? '30d' : 0, immutable: config.isProd, index: false, dotfiles: 'deny' }));
   app.use(require('./routes/images'));

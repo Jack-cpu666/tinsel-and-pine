@@ -28,6 +28,8 @@ module.exports = {
   databaseSsl: env.DATABASE_SSL === 'true' || (isProd && env.DATABASE_SSL !== 'false' && !/localhost|127\.0\.0\.1|\.internal|dpg-[a-z0-9]+-a(\/|:|$)/.test(env.DATABASE_URL || '')),
   appSecret,
   baseUrl: (env.BASE_URL || env.RENDER_EXTERNAL_URL || `http://localhost:${env.PORT || 3000}`).replace(/\/$/, ''),
+  // When set (e.g. tinselandpine.us), every other hostname (onrender.com, www) 301-redirects here.
+  canonicalHost: /^[a-z0-9.-]{3,253}$/i.test(env.CANONICAL_HOST || '') ? env.CANONICAL_HOST.toLowerCase() : null,
   stripeSecretKey: env.STRIPE_SECRET_KEY || '',
   stripeWebhookSecret: env.STRIPE_WEBHOOK_SECRET || '',
   storeName: env.STORE_NAME || 'Tinsel & Pine',
